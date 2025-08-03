@@ -1,27 +1,20 @@
-# 🌳 Parque de la Bellota — Guía Digital
+# 🌳 Parque de la Bellota 
 
-Bienvenido al repositorio oficial del **Parque de la Bellota**, un entorno natural situado en la Sierra Oeste de Madrid, en las estribaciones del Sistema Central.
+Bienvenido al rincón del **Parque de la Bellota**, un entorno natural situado en la Sierra Oeste de Madrid, en las estribaciones del Sistema Central.
 
-Este espacio digital reúne todos los recursos interactivos, mapas, actividades y contenidos educativos relacionados con el parque. Aquí podrás encontrar materiales descargables, información sobre flora y fauna, eventos locales, y enlaces para escanear desde los puntos QR distribuidos en los **paneles interpretativos** repartidos por el terreno.
+Este espacio reúne todos los recursos interactivos, mapas, actividades y contenidos educativos relacionados con el parque. Aquí podrás encontrar materiales descargables, información sobre flora y fauna, eventos locales. A lo largo de tu paseo por el parque encontrarás QRs distribuidos en los paneles interpretativos, que te llevarán a los recursos alojados en este rincón. 
 
 ---
 
 ## 📍 Sobre el parque
 
-A la sombra del Parque Nacional de la Sierra de Guadarrama, la Sierra Oeste de Madrid es la hermana pequeña de la naturaleza montañosa de la región. Nuestra urbanización se encuentra en la zona de transición entre las Sierras de Gredos y Guadarrama.
+A la sombra del Parque Nacional de la Sierra de Guadarrama, la Sierra Oeste de Madrid es la hermana pequeña de la naturaleza montañosa de la región. Nuestra urbanización, el Encinar del Alberfche, se encuentra en la zona de transición entre las Sierras de Gredos y Guadarrama.
 
-Hacia el oeste, el paisaje está salpicado de montañas con formas muy diversas. Algunas se alinean a lo largo de varios kilómetros, mientras que otras se alzan solitarias. Entre ellas destacan:
+El Parque de la Bellota limita al norte y al este con la **ZEPA nº 56** (Zona de Especial Protección para las Aves) “Encinares del río Alberche y río Cofio”, un área de gran valor ecológico que alberga.
 
-- **Peña de Cenicientos** (1.252 m)
-- **Peña de Cadalso** (1.044 m), con su forma de “monte-isla”
+Este espacio alberga una biodiversidad extraordinaria, con aves migratorias, encinares, estanques y senderos señalizados.
 
-Hacia el este, se extiende la **Depresión del Tajo**, una gran llanura atravesada por el río **Alberche**, que fluye de noreste a suroeste, marcando el ritmo natural del entorno.
-
-El parque limita al norte y al este con la **ZEPA nº 56** (Zona de Especial Protección para las Aves) “Encinares del río Alberche y río Cofio”, un área de gran valor ecológico que alberga:
-
-- 26 especies de aves protegidas
-- 5 especies migratorias que visitan la zona cada año
-
+Puedes visitarnos todos los días de 9:00 a 21:00h. ¡Ven a descubrirlo!
 ---
 
 ## 📁 Contenidos del repositorio
