@@ -3,16 +3,44 @@ layout: default
 title: Recursos
 ---
 
-  <h1>📚 Recursos del Parque de la Bellota</h1>
+<style>
+  .recurso {
+    margin-bottom: 1em;
+  }
+  .recurso-title {
+    font-weight: 600;
+    margin-bottom: 0.25em;
+  }
+  .recurso-links a {
+    margin-right: 1em;
+    color: var(--color-link, #1a73e8);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .recurso-links a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 600px) {
+    .recurso-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3em;
+    }
+    .recurso-links a {
+      margin-right: 0;
+    }
+  }
+</style>
 
-  <p>Aquí puedes consultar y descargar materiales útiles relacionados con el parque:</p>
+<h1>{{ page.title }}</h1>
 
-  <ul>
-    <li>
-      <a href="mapa-parque.pdf" target="_blank">🗺️ Mapa del Parque (PDF)</a>
-    </li>
-    <!-- Puedes añadir más recursos aquí en el futuro -->
-  </ul>
+<div class="recurso">
+  <div class="recurso-title">Mapa del Parque</div>
+  <div class="recurso-links">
+    <a href="mapa-parque.pdf" target="_blank" rel="noopener noreferrer">Ver</a>
+    <a href="mapa-parque.pdf" download>Descargar</a>
+  </div>
+</div>
 
   <p><a href="index.html">← Volver al inicio</a></p>
 
