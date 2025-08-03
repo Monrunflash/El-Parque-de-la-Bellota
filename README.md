@@ -2,7 +2,7 @@
 
 Bienvenido al rincón del **Parque de la Bellota**, un entorno natural situado en la Sierra Oeste de Madrid, en las estribaciones del Sistema Central.
 
-Este espacio reúne todos los recursos interactivos, mapas, actividades y contenidos educativos relacionados con el parque. Aquí podrás encontrar materiales descargables, información sobre flora y fauna, eventos locales. A lo largo de tu paseo por el parque encontrarás QRs distribuidos en los paneles interpretativos, que te llevarán a los recursos alojados en este rincón. 
+Este espacio reúne todos los recursos interactivos, mapas, actividades y contenidos educativos relacionados con el parque. Aquí podrás encontrar materiales descargables, información sobre flora y fauna, eventos locales. A lo largo de tu paseo por el parque encontrarás QRs distribuidos en los paneles interpretativos, que te llevarán a los recursos alojados en este [rincón](https://elencinardelalberche.github.io/El-Parque-de-la-Bellota/). 
 
 ---
 
