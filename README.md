@@ -8,13 +8,14 @@ Este espacio reúne todos los recursos interactivos, mapas, actividades y conten
 
 ## 📍 Sobre el parque
 
-A la sombra del Parque Nacional de la Sierra de Guadarrama, la Sierra Oeste de Madrid es la hermana pequeña de la naturaleza montañosa de la región. Nuestra urbanización, el Encinar del Alberfche, se encuentra en la zona de transición entre las Sierras de Gredos y Guadarrama.
+A la sombra del Parque Nacional de la Sierra de Guadarrama, la **Sierra Oeste** de Madrid es la hermana pequeña de la naturaleza montañosa de la región. Nuestra urbanización, **el Encinar del Alberche**, se encuentra en la zona de transición entre las Sierras de Gredos y Guadarrama.
 
 El Parque de la Bellota limita al norte y al este con la **ZEPA nº 56** (Zona de Especial Protección para las Aves) “Encinares del río Alberche y río Cofio”, un área de gran valor ecológico que alberga.
 
 Este espacio alberga una biodiversidad extraordinaria, con aves migratorias, encinares, estanques y senderos señalizados.
 
-Puedes visitarnos todos los días de 9:00 a 21:00h. ¡Ven a descubrirlo!
+**Puedes visitarnos todos los días de 9:00 a 21:00h. ¡Ven a descubrirlo!**
+
 ---
 
 ## 📁 Contenidos del repositorio
