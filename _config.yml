@@ -3,7 +3,7 @@ title: El Parque de la Bellota
 subtitle: by Bellotita
 email: youremailaddress@gmail.com
 description: Este espacio une todos los recursos interactivos, mapas y actividades del <strong>Parque de la Bellota</strong>. Un lugar para aprender y divertirse.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "/El-Parque-de-la-Bellota" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: 1234
