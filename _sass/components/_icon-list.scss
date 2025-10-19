@@ -1,0 +1,19 @@
+/* Icon List */
+
+	.icon-list {
+		list-style: none;
+		padding-left: 0;
+
+		li {
+			display: flex;
+			align-items: center;
+			margin-bottom: 1em;
+		}
+
+		img {
+			height: 40px;
+			margin-right: 15px;
+			flex-shrink: 0;
+			filter: brightness(0) saturate(100%) invert(95%) sepia(10%) saturate(300%) hue-rotate(340deg) brightness(103%) contrast(95%);
+		}
+	}

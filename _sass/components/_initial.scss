@@ -1,0 +1,23 @@
+.initial-svg {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+/* Primero: estilo por defecto para todos los paths (el marco) */
+.initial-svg svg path {
+    fill: #bdb76b;
+    stroke: #d4c5a9;
+    stroke-width: 1;
+}
+
+/* Después: estilo específico para la letra (sobreescribe el anterior) */
+.initial-svg svg path.letter {
+    fill: #ffffff;
+    stroke: none;
+}
+
+.hidden {
+    display: none;
+}

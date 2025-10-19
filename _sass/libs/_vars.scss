@@ -1,0 +1,47 @@
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		menu:				0.35s,
+		transition:			0.2s,
+		banner:				2.5s
+	);
+
+// Size.
+	$size: (
+		border-radius:		4px,
+		element-height:		2.75em,
+		element-margin:		2em,
+		inner:				65em
+	);
+
+// Font.
+	$font: (
+		family:				('Source Sans Pro', Helvetica, sans-serif),
+		family-fixed:		('Courier New', monospace),
+		weight:				300,
+		weight-bold:		600,
+		letter-spacing:		0.025em,
+		letter-spacing-alt:	0.25em
+	);
+
+// Palette.
+	$palette: (
+		bg:					#1a2017,        // negro (fondo oscuro)
+		bg-alt:				#2d472e,        // verde oscuro
+		fg:					#ebe0d8,        // blanco roto beis (texto claro)
+		fg-bold:			#dde0b9,        // verde clarito
+		fg-light:			#b8aa9f,        // beis grisáceo
+		border:				rgba(235,224,216,0.1),
+		border-bg:			rgba(235,224,216,0.035),
+		highlight:			#bad7e6,        // azul clarito
+		accent1:			#8e6237,        // marrón anaranjado
+		accent2:			#2d472e,        // verde oscuro
+		accent3:			#1e5773,        // azul clarito
+		accent4:			#b8aa9f,        // beis grisáceo
+		accent5:			#dde0b9,        // verde clarito (fauna y flora)
+		accent6:			#ebe0d8         // blanco roto beis (bellotita/acerca de parque)
+	);
