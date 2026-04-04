@@ -6,7 +6,7 @@ subtitle: by Bellotita
 description: Este espacio une todos los recursos interactivos, mapas y actividades del <strong>Parque de la Bellota</strong>. Un lugar para aprender y divertirse.
 author:
 baseurl: "" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+url: "https://elparquedelabellota.polimata-lab.com" # the base hostname & protocol for your site
 
 # ====================
 # Contact information
