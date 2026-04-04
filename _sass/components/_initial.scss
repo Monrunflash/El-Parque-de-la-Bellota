@@ -1,23 +1,58 @@
+// ============================================================
+// CAPITULAR — imagen inicial decorativa
+// ============================================================
+
+// Párrafo contenedor: crea BFC para alojar correctamente el float
+#initial-paragraph {
+    overflow: hidden;                       // BFC: contiene el float dentro del párrafo
+    margin-bottom: _size(element-margin);   // Consistente con el espaciado del tema
+
+    &::after {                              // Clearfix adicional
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+// Imagen capitular: span flotante (válido dentro de <p>)
 .initial-svg {
-    width: 80px;
-    height: 80px;
     float: left;
-    margin: 0 15px 0 0;
+    display: inline-block;              // Necesario para que el span tenga dimensiones
+    width: 5em;
+    height: 5em;
+    margin: 0.05em 0.8em 0.25em 0;     // top right bottom left
+    shape-outside: margin-box;          // El texto se adapta al margen del float
+
+    svg {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
 }
 
-/* Primero: estilo por defecto para todos los paths (el marco) */
+// Marco / fondo de la capitular
 .initial-svg svg path {
-    fill: #bdb76b;
-    stroke: #d4c5a9;
-    stroke-width: 1;
+    fill: _palette(color-tierra);
+    stroke: _palette(fg-light);
+    stroke-width: 0.5;
 }
 
-/* Después: estilo específico para la letra (sobreescribe el anterior) */
+// La letra en sí
 .initial-svg svg path.letter {
-    fill: #ffffff;
+    fill: _palette(fg);
     stroke: none;
 }
 
+// Primera letra del texto: oculta (reemplazada visualmente por el SVG)
 .hidden {
     display: none;
+}
+
+// Móvil: capitular más pequeña para no dominar en pantallas estrechas
+@include breakpoint(small) {
+    .initial-svg {
+        width: 4em;
+        height: 4em;
+        margin: 0.05em 0.6em 0.2em 0;
+    }
 }

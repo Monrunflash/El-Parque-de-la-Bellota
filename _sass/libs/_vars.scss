@@ -38,10 +38,20 @@
 		border:				rgba(235,224,216,0.1),
 		border-bg:			rgba(235,224,216,0.035),
 		highlight:			#bad7e6,        // azul clarito
-		accent1:			#8e6237,        // marrón anaranjado
-		accent2:			#2d472e,        // verde oscuro
-		accent3:			#1e5773,        // azul clarito
-		accent4:			#b8aa9f,        // beis grisáceo
-		accent5:			#dde0b9,        // verde clarito (fauna y flora)
-		accent6:			#ebe0d8         // blanco roto beis (bellotita/acerca de parque)
+
+		// Colores de acento — tiles y secciones
+		color-tierra:		#8e6237,        // marrón anaranjado  — oscuro ✓
+		color-bosque:		#2d472e,        // verde oscuro        — oscuro ✓
+		color-agua:			#1e5773,        // azul                — oscuro ✓
+		color-piedra:		#4a4038,        // beis grisáceo oscuro (era #b8aa9f)
+		color-pradera:		#3d5220,        // verde pradera oscuro (era #dde0b9)
+		color-bellota:		#5c4a3a,        // marrón bellota oscuro (era #ebe0d8)
+
+		// Aliases legacy — mantener mientras se migra _banner.scss
+		accent1:			#8e6237,
+		accent2:			#2d472e,
+		accent3:			#1e5773,
+		accent4:			#b8aa9f,
+		accent5:			#dde0b9,
+		accent6:			#ebe0d8
 	);

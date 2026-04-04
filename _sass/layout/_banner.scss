@@ -1,8 +1,52 @@
-///
-/// Forty by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
+
+
+// /* Hero wrapper (home) — fondo continuo para banner + bellotita + normas */
+
+// 	#hero {
+// 		@include vendor('background-image', 'url("../images/banner.png")');
+// 		background-attachment: fixed;
+// 		background-position: center top;
+// 		background-repeat: no-repeat;
+// 		background-size: cover;
+// 		position: relative;
+
+// 		// Overlay oscuro sobre toda la zona hero para legibilidad
+// 		&:before {
+// 			background-color: rgba(26, 32, 23, 0.72);
+// 			content: '';
+// 			display: block;
+// 			height: 100%;
+// 			left: 0;
+// 			pointer-events: none;
+// 			position: absolute;
+// 			top: 0;
+// 			width: 100%;
+// 			z-index: 0;
+// 		}
+
+// 		// El banner dentro del hero no necesita su propia imagen ni overlay
+// 		#banner {
+// 			background-image: none !important;
+// 			background: transparent;
+// 			margin-bottom: 0;
+// 			top: 0;
+// 			max-height: none;
+
+// 			&:after {
+// 				display: none;
+// 			}
+// 		}
+
+// 		#bellotita,
+// 		#rules {
+// 			position: relative;
+// 			z-index: 1;
+// 		}
+
+// 		@include breakpoint(large) {
+// 			background-attachment: scroll;
+// 		}
+// 	}
 
 /* Banner */
 

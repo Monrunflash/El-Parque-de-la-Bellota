@@ -1,8 +1,4 @@
-///
-/// Forty by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
+
 
 /* Tiles */
 
@@ -43,6 +39,10 @@
 			header {
 				position: relative;
 				z-index: 3;
+
+				h3, p {
+					text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+				}
 			}
 
 			h3 {
@@ -107,40 +107,22 @@
 				flex: 1 auto;
 			}
 
-			&:nth-child(6n - 5) {
-				&:before {
-					background-color: _palette(accent1);
-				}
-			}
+			// Colores por clase semántica (asignados desde front matter)
+			&.color-tierra:before  { background-color: _palette(color-tierra);  }
+			&.color-bosque:before  { background-color: _palette(color-bosque);  }
+			&.color-agua:before    { background-color: _palette(color-agua);    }
+			&.color-piedra:before  { background-color: _palette(color-piedra);  }
+			&.color-pradera:before { background-color: _palette(color-pradera); }
+			&.color-bellota:before { background-color: _palette(color-bellota); }
 
-			&:nth-child(6n - 4) {
-				&:before {
-					background-color: _palette(accent2);
-				}
-			}
-
-			&:nth-child(6n - 3) {
-				&:before {
-					background-color: _palette(accent3);
-				}
-			}
-
-			&:nth-child(6n - 2) {
-				&:before {
-					background-color: _palette(accent4);
-				}
-			}
-
-			&:nth-child(6n - 1) {
-				&:before {
-					background-color: _palette(accent5);
-				}
-			}
-
-			&:nth-child(6n) {
-				&:before {
-					background-color: _palette(accent6);
-				}
+			// Fallback: rotación por posición si no hay clase asignada
+			&:not([class*="color-"]) {
+				&:nth-child(6n - 5):before { background-color: _palette(color-tierra);  }
+				&:nth-child(6n - 4):before { background-color: _palette(color-bosque);  }
+				&:nth-child(6n - 3):before { background-color: _palette(color-agua);    }
+				&:nth-child(6n - 2):before { background-color: _palette(color-piedra);  }
+				&:nth-child(6n - 1):before { background-color: _palette(color-pradera); }
+				&:nth-child(6n):before     { background-color: _palette(color-bellota); }
 			}
 		}
 

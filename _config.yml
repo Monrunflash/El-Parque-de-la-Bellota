@@ -1,21 +1,29 @@
 # site settings
 title: El Parque de la Bellota
 subtitle: by Bellotita
-email: youremailaddress@gmail.com
+email: administracion@encinardelalberche.es
 description: Este espacio une todos los recursos interactivos, mapas y actividades del <strong>Parque de la Bellota</strong>. Un lugar para aprender y divertirse.
-baseurl: "/El-Parque-de-la-Bellota" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 1234
-city: El Encinar del Alberche
+street_address: Calle Pinos 160, Fase 1
+city: Villa del Prado
 state: Madrid
-zip_code: 55555
-country: Spain
-phone: +34 123 456 789
-
+zip_code: 28630
+country: España
+phone: 91 867 40 03
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
+
+# Orden de navegación — slugs de _pages/ en el orden deseado
+navigation:
+  - discover
+  - map
+  - wildlife
+  - activities
+  - resources
+  - routes
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
@@ -37,8 +45,22 @@ markdown: kramdown
 sass:
   style: compressed
 
+# _pages como colección para que site.html_pages las encuentre
+collections:
+  pages:
+    output: true
+    permalink: /:name
+
+# Permalinks limpios para páginas en _pages/
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: post
+
 exclude:
 - "*.gemspec"
 - LICENSE.md
 - CONTRIBUTING.md
-- README.md 
+- README.md
