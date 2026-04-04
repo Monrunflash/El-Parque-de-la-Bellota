@@ -39,7 +39,7 @@
 
 			&:active {
 				&:before {
-					background-color: desaturate(darken(_palette(accent1), 15), 5);
+					background-color: color.adjust(_palette(accent1), $lightness: -15%, $saturation: -5%);
 				}
 			}
 		}

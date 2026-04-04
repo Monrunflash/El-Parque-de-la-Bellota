@@ -127,7 +127,7 @@
 	}
 
 	input[type="checkbox"],
-	input[type="radio"], {
+	input[type="radio"] {
 		@include vendor('appearance', 'none');
 		display: block;
 		float: left;
@@ -173,13 +173,6 @@
 		&:focus + label {
 			&:before {
 				box-shadow: 0 0 0 2px _palette(highlight);
-			}
-		}
-	}
-
-	input[type="checkbox"] {
-		& + label {
-			&:before {
 			}
 		}
 	}

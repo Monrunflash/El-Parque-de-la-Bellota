@@ -1,12 +1,9 @@
 ---
 layout: news
 title: Noticias
-landing-title: 'Noticias'
-nav-menu: true
-description: null
-image: null
-author: null
+description: 📰 Novedades del parque
 show_tile: false
+nav-menu: true
 permalink: /noticias
 ---
 

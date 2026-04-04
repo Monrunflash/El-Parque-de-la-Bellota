@@ -8,15 +8,12 @@
 					<h3>Email</h3>
 					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 				</div>
-			</section>
-			<section>
+
 				<div class="contact-method">
 					<span class="icon alt fa-phone"></span>
 					<h3>Teléfono</h3>
 					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
 				</div>
-			</section>
-			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-home"></span>
 					<h3>Dirección</h3>
@@ -46,6 +43,7 @@
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
+			{% if site.socials-display %}
 			<ul class="icons">
 				{% for key_value in site.socials %}
 					{% if key_value[1] %}
@@ -57,6 +55,7 @@
 					{% endif %}
 				{% endfor %}
 			</ul>
+			{% endif %}
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
 			</ul>

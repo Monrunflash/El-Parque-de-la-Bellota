@@ -1,9 +1,11 @@
 ---
-layout: post
+layout: page
 title: Mapa
 description: 🗺️ Mapa interactivo del parque
 image: assets/images/Mapa_Parque_de_la_Bellota.png
+show-display-image: false
 nav-menu: true
+use-initials: true
 accent: color-bellota
 permalink: /mapa
 ---
@@ -12,7 +14,7 @@ permalink: /mapa
 
 [![Mapa del Parque de la Bellota]({{ site.baseurl }}/assets/images/Mapa_Parque_de_la_Bellota.png)]({{ site.baseurl }}/assets/images/Mapa_Parque_de_la_Bellota.png)
 
-Los puntos numerados del mapa corresponden a los paneles interpretativos distribuidos por el parque. Escanea el QR de cada panel para acceder a su información detallada.
+<p id="initial-paragraph">Los puntos numerados del mapa corresponden a los paneles interpretativos distribuidos por el parque. Escanea el QR de cada panel para acceder a su información detallada.</p>
 
 ### Leyenda
 

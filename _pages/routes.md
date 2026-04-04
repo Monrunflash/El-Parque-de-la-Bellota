@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title: Rutas
-show_tile: true
 description: 🥾 Descubre nuestras rutas
 image: assets/images/fauna_y_flora.png
+show_tile: true
 nav-menu: true
 use-initials: true
 accent: color-piedra

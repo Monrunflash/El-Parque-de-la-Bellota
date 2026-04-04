@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Fauna y Flora
 description: 🐦 Fauna y flora del parque
 image: assets/images/fauna_y_flora.png

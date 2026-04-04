@@ -18,9 +18,9 @@
 .initial-svg {
     float: left;
     display: inline-block;              // Necesario para que el span tenga dimensiones
-    width: 5em;
-    height: 5em;
-    margin: 0.05em 0.8em 0.25em 0;     // top right bottom left
+    width: 10em;                        // Doble del tamaño original para ver motivos vegetales
+    height: 10em;
+    margin: 0.1em 1.2em 0.5em 0;       // top right bottom left - ajustado proporcionalmente
     shape-outside: margin-box;          // El texto se adapta al margen del float
 
     svg {
@@ -32,14 +32,15 @@
 
 // Marco / fondo de la capitular
 .initial-svg svg path {
-    fill: _palette(color-tierra);
+    // Fondo intermedio: más oscuro que la letra, más claro que el fondo general
+    fill: #505d83;                      // Gris oscuro con tinte cálido para contraste
     stroke: _palette(fg-light);
     stroke-width: 0.5;
 }
 
 // La letra en sí
 .initial-svg svg path.letter {
-    fill: _palette(fg);
+    fill: _palette(fg);                 // Letra clara
     stroke: none;
 }
 
@@ -51,8 +52,8 @@
 // Móvil: capitular más pequeña para no dominar en pantallas estrechas
 @include breakpoint(small) {
     .initial-svg {
-        width: 4em;
-        height: 4em;
-        margin: 0.05em 0.6em 0.2em 0;
+        width: 9em;                     // Proporcionalmente ajustado al nuevo tamaño
+        height: 9em;
+        margin: 0.1em 0.8em 0.3em 0;
     }
 }

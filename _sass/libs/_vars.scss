@@ -15,7 +15,7 @@
 		border-radius:		4px,
 		element-height:		2.75em,
 		element-margin:		2em,
-		inner:				65em
+		inner:				50em
 	);
 
 // Font.
@@ -46,6 +46,7 @@
 		color-piedra:		#4a4038,        // beis grisáceo oscuro (era #b8aa9f)
 		color-pradera:		#3d5220,        // verde pradera oscuro (era #dde0b9)
 		color-bellota:		#5c4a3a,        // marrón bellota oscuro (era #ebe0d8)
+		color-hoja: 		#dde0b9,        // verde claro
 
 		// Aliases legacy — mantener mientras se migra _banner.scss
 		accent1:			#8e6237,

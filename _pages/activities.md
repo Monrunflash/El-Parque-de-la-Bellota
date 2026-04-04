@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Actividades
 description: 🏫 Actividades educativas del parque
 image: assets/images/fauna_y_flora.png
