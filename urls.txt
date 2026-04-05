@@ -1,0 +1,47 @@
+# Lista de URLs para generar códigos QR
+# Una URL por línea. Las líneas que empiezan con # son comentarios.
+# Dominio: elparquedelabellota.polimata-lab.com
+
+# ==================================================
+# PÁGINA PRINCIPAL
+# ==================================================
+https://elparquedelabellota.polimata-lab.com
+
+# ==================================================
+# PÁGINAS PRINCIPALES
+# ==================================================
+https://elparquedelabellota.polimata-lab.com/descubre
+https://elparquedelabellota.polimata-lab.com/mapa
+https://elparquedelabellota.polimata-lab.com/fauna-y-flora
+https://elparquedelabellota.polimata-lab.com/actividades
+https://elparquedelabellota.polimata-lab.com/recursos
+https://elparquedelabellota.polimata-lab.com/rutas
+https://elparquedelabellota.polimata-lab.com/noticias
+
+# ==================================================
+# AVES - Fichas individuales (6 especies)
+# ==================================================
+https://elparquedelabellota.polimata-lab.com/ave/abubilla-comun
+https://elparquedelabellota.polimata-lab.com/ave/buitre-negro
+https://elparquedelabellota.polimata-lab.com/ave/paloma-torcaz
+https://elparquedelabellota.polimata-lab.com/ave/pico-picapinos
+https://elparquedelabellota.polimata-lab.com/ave/rabilargo-iberico
+https://elparquedelabellota.polimata-lab.com/ave/urraca-comun
+
+# ==================================================
+# RECURSOS - Secciones específicas (con anclas)
+# ==================================================
+https://elparquedelabellota.polimata-lab.com/recursos#topografia
+https://elparquedelabellota.polimata-lab.com/recursos#geologia
+https://elparquedelabellota.polimata-lab.com/recursos#flora-y-fauna
+https://elparquedelabellota.polimata-lab.com/recursos#actividades-educativas
+https://elparquedelabellota.polimata-lab.com/recursos#paneles
+https://elparquedelabellota.polimata-lab.com/recursos#normas-y-recomendaciones
+
+# ==================================================
+# NOTICIAS - Posts individuales
+# ==================================================
+https://elparquedelabellota.polimata-lab.com/2025/10/18/apertura-sitio
+https://elparquedelabellota.polimata-lab.com/2025/10/19/mejoras-continuas
+
+
